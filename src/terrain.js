@@ -389,9 +389,9 @@ export const terrain = (function() {
         height: 16,
       };
 
-      const heightmapRollup = params.gui.addFolder('Terrain.Heightmap');
-      heightmapRollup.add(params.guiParams.heightmap, "height", 0, 128).onChange(
-          onNoiseChanged);
+     // const heightmapRollup = params.gui.addFolder('Terrain.Heightmap');
+    //  heightmapRollup.add(params.guiParams.heightmap, "height", 0, 128).onChange(
+      //    onNoiseChanged);
     }
 
     _InitBiomes(params) {
